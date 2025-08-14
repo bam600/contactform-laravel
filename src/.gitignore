@@ -1,0 +1,20 @@
+
+# Docker関連（MySQLのデータなど）
+docker/mysql/*.cnf
+
+# Laravelのキャッシュやログ
+/storage/logs/
+storage/framework/cache/*
+storage/framework/sessions/*
+storage/framework/views/*
+
+# Composerの依存関係キャッシュ
+composer.lock
+
+# IDE関連（既に一部あり）
+*.sublime-project
+*.sublime-workspace
+
+# OSごとの不要ファイル
+.DS_Store
+Thumbs.db

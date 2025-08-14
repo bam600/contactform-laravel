@@ -1,0 +1,109 @@
+/* 管理者画面用CSS */
+.header {
+    background: #FFFFFF;
+    height: 10vh;
+}
+
+.header__inner {
+    max-width: 100vw;
+    text-align: center;
+}
+
+.header__logo {
+    color: #8B7969;
+    font-size: 40px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    line-height: 100%;
+
+}
+
+/* コンテンツ用CSS */
+.contact-form__content {
+    background: #FFFFFF;
+    height: 90vh;
+    text-align: center;
+}
+
+.contact-form__inner {
+    max-width: 100vw;
+    text-align: center;
+}
+
+.contact-form__logo {
+    color: #8B7969;
+    font-size: 35px;
+    font-family: 'Inika', serif;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* ← 上に詰める */
+    align-items: center;
+    /* ← 子要素（ボックス）を中央揃え */
+}
+
+/* ボックス用CSS */
+
+.boxsizing {
+    width: 736px;
+    height: 644px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E3E2;
+    margin: 264px 0px 0px 388px;
+}
+
+.content-box {
+    box-sizing: content-box;
+    margin-top: 0;
+}
+
+.form__label--required {
+    background: #F5F5F5;
+    color: #8A7A6A
+}
+
+.form-item-label {
+    text-align: left;
+    font-family: メイリオ, Meiryo;
+    padding-left: 30%;
+    margin-top: 5%;
+    font-size: 20px;
+    color: #8A7A6A
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form-item-input {
+    padding: 10px;
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
